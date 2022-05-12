@@ -1,0 +1,23 @@
+### create a file
+POST http://localhost:4001/register
+content-type: application/json
+
+{
+    "first_name": "sample",
+    "last_name": "Wee",
+    "email":"user@gmail.com",
+    "password":"123456"
+}
+
+
+### create a file
+POST http://localhost:4001/login
+content-type: application/json
+
+{
+    
+    "email":"user@gmail.com",
+    "password":"123456"
+}
+
+
